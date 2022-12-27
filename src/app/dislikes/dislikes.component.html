@@ -1,0 +1,18 @@
+<h1>List of dislikes </h1>
+<table class="table table-bordered table-hover">
+    <thead>
+<tr>    <th>ID</th>
+    <th>dislike Id</th><th>User Id</th>    
+    <th>Is Deleted</th> <th>Operations</th>
+</tr>
+    </thead>
+    <tbody>
+<tr *ngFor="let dislike of dislikes">
+    <td>{{dislike.id}}</td>
+    <td>{{dislike.dislikeid}}</td>    <td>{{dislike.userid}}</td>
+    <td>{{dislike.isdeleted}}</td>
+    <td><a (click)="getInterestByIdFromService(interest.id)">Select</a> |
+        <a (click)="deleteInterestById(interest.id)">Delete</a>  </td>
+</tr>
+    </tbody>
+ </table> 

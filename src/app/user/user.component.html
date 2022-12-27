@@ -1,0 +1,73 @@
+
+<h1>List of Users</h1>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>    <th>ID</th>
+            <th>User Id</th> <th>Name of the User</th> <th>Age</th>
+            <th>Email</th> <th>Phone Number</th> <th>Gender</th>
+            <th>City</th> <th>Country</th> <th>Is Deleted</th>
+            <th>Operations</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users">
+            <td>{{user.id}}</td>
+            <td>{{user.userid}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.age}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.phone}}</td>
+            <td>{{user.gender}}</td>
+            <td>{{user.city}}</td>
+            <td>{{user.country}}</td>
+            <td>{{user.isdeleted}}</td>
+            <td><a  (click)="getUserById(user.id)">Select</a> |
+                <a (click)="deleteUserById(user.userid)">Delete</a> </td>
+        </tr>
+    </tbody>
+</table>        
+
+<h2>User Details</h2>
+<table border="1">
+    <tr>
+        <td>Id</td>
+        <td><input type="number" [(ngModel)]="user.userid" /></td>        
+    </tr>
+    <tr>
+        <td>Name of the User</td>
+        <td><input type="text" [(ngModel)]="user.name" /></td>
+    </tr>
+    <tr>
+        <td>Age</td>
+        <td><input type="number" [(ngModel)]="user.age" /></td>        
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="text" [(ngModel)]="user.email" /></td>
+    </tr>
+    <tr>
+        <td>Phone</td>
+        <td><input type="text" [(ngModel)]="user.phone" /></td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td><input type="text" [(ngModel)]="user.gender" /></td>
+    </tr>
+    <tr>
+        <td>City</td>
+        <td><input type="text" [(ngModel)]="user.city" /></td>
+    </tr>
+    <tr>
+        <td>Country</td>
+        <td><input type="text" [(ngModel)]="user.country" /></td>
+    </tr>
+    <tr>
+        <td>IS Deleted</td>
+        <td><input type="text" [(ngModel)]="user.isdeleted" /></td>
+    </tr>
+</table>
+<button (click)="clearAll()">Clear All</button> | 
+<button (click)="addUser()">Add New User</button> | <button (click)="editUser(user.id)">Edit User</button>
+{{msg}}
+{{errorMsg}}
