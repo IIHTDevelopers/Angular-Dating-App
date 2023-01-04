@@ -1,16 +1,15 @@
-<div class="container">
-  <div class="row">
-    <h1>Dating App</h1>
-  </div>
-  <div class="row">
-    Modules: 
-    <a  (click)="getIndex()">Index</a>  | 
-    <a (click)="getUsers()">All User</a>   |
-    <a (click)="getInterests()">All Interests</a>   |
-    <a (click)="getLikes()">All Likes</a>   |
-    <a (click)="getDislikes()">All Dislikes</a>   |
-    <a (click)="getMatches()">All Matches</a>   
-    <router-outlet></router-outlet>
-  </div>
+<div class="logo">
+
+</div>
+<div class="navbar">
+
 </div>
 
+<div class="sidebar">
+  <button (click)="landingpage()">Home</button><br>
+  <button (click)="users()">User Index</button><br>
+  <button (click)="likes()">Likes Index</button><br>
+  <button (click)="dislikes()">Dislikes Index</button>
+
+</div>
+<router-outlet></router-outlet>

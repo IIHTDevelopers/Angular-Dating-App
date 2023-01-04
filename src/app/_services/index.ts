@@ -1,1 +1,1 @@
-export * from './dating.service';
+export * from './user.service';

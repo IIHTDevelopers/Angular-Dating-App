@@ -8,33 +8,15 @@ export class AppComponent {
   title = 'angularSPA';
   constructor(private router: Router) { }
   landingpage() {
-    this.router.navigateByUrl("landing-page");
-  }
-  placeAppointment() {
-    this.router.navigateByUrl("place-fitness-trainer-appointment");
-  }
-  viewAppointment() {
-    this.router.navigateByUrl("view-appointment");
-  }
-  contactUspage() {
-    this.router.navigateByUrl("contact-us");
-  }
-  getIndex(){
     this.router.navigateByUrl("index");
   }
-  getUsers(){
+  users() {
     this.router.navigateByUrl("users");
   }
-  getInterests(){
-    this.router.navigateByUrl("interests");
-  }
-  getLikes(){
+  likes() {
     this.router.navigateByUrl("likes");
   }
-  getDislikes(){
+  dislikes() {
     this.router.navigateByUrl("dislikes");
-  }
-  getMatches(){
-    this.router.navigateByUrl("matches");
   }
 }

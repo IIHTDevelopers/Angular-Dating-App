@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">39.28% </span>
+                <span class="strong">25% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>11/28</span>
+                <span class='fraction'>5/20</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">40% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/5</span>
+                <span class='fraction'>2/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">34.61% </span>
+                <span class="strong">16.66% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>9/26</span>
+                <span class='fraction'>3/18</span>
             </div>
         
             
@@ -54,12 +54,6 @@
         <p class="quiet">
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
-        <template id="filterTemplate">
-            <div class="quiet">
-                Filter:
-                <input oninput="onInput()" type="search" id="fileSearch">
-            </div>
-        </template>
     </div>
     <div class='status-line low'></div>
     <pre><table class="coverage">
@@ -109,32 +103,8 @@
 <a name='L44'></a><a href='#L44'>44</a>
 <a name='L45'></a><a href='#L45'>45</a>
 <a name='L46'></a><a href='#L46'>46</a>
-<a name='L47'></a><a href='#L47'>47</a>
-<a name='L48'></a><a href='#L48'>48</a>
-<a name='L49'></a><a href='#L49'>49</a>
-<a name='L50'></a><a href='#L50'>50</a>
-<a name='L51'></a><a href='#L51'>51</a>
-<a name='L52'></a><a href='#L52'>52</a>
-<a name='L53'></a><a href='#L53'>53</a>
-<a name='L54'></a><a href='#L54'>54</a>
-<a name='L55'></a><a href='#L55'>55</a>
-<a name='L56'></a><a href='#L56'>56</a>
-<a name='L57'></a><a href='#L57'>57</a>
-<a name='L58'></a><a href='#L58'>58</a>
-<a name='L59'></a><a href='#L59'>59</a>
-<a name='L60'></a><a href='#L60'>60</a>
-<a name='L61'></a><a href='#L61'>61</a>
-<a name='L62'></a><a href='#L62'>62</a>
-<a name='L63'></a><a href='#L63'>63</a>
-<a name='L64'></a><a href='#L64'>64</a>
-<a name='L65'></a><a href='#L65'>65</a>
-<a name='L66'></a><a href='#L66'>66</a>
-<a name='L67'></a><a href='#L67'>67</a>
-<a name='L68'></a><a href='#L68'>68</a>
-<a name='L69'></a><a href='#L69'>69</a>
-<a name='L70'></a><a href='#L70'>70</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
+<a name='L47'></a><a href='#L47'>47</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
@@ -164,11 +134,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">15x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">15x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -184,26 +149,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">15x</span>
-<span class="cline-any cline-yes">15x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Component, OnInit} from '@angular/core';
-import {  FormControl, FormGroup } from "@angular/forms";
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { Component, OnInit} from '@angular/core';
+import {  FormGroup } from "@angular/forms";
 &nbsp;
 &nbsp;
 export class Fitness {
@@ -233,42 +180,20 @@ export class Fitness {
 })
 export class PlaceFitnessTrainerAppointmentComponent implements OnInit {
 &nbsp;
-constructor(private http:HttpClient){}  
+  
 &nbsp;
   fitnessForm: FormGroup;
+  
+  constructor() { }
+  
+&nbsp;
   ngOnInit() {
-    this.fitnessForm = new FormGroup({
-      recipientFname:new FormControl(),
-      recipientLname:new FormControl(),
-      firstname:new FormControl(),
-      age:new FormControl(),
-      email:new FormControl(),
-      phonenumber:new FormControl(),
-      streetaddress:new FormControl(),
-      city:new FormControl(),  
-      state:new FormControl(),
-      country:new FormControl(),
-      trainerpreference:new FormControl(),
-      physiotherapist:new FormControl(),
-      packages:new FormControl(),
-      weeks:new FormControl(),
-      pincode:new FormControl(),
-      inr:new FormControl(),
-      paisa:new FormControl(),
-      
-    });
     
-      }
-      url:string='http://localhost:6565/appointments';
-      msg:string='';
-<span class="fstat-no" title="function not covered" >      onSubmit(</span>) {
-<span class="cstat-no" title="statement not covered" >        this.http.post(this.url,this.fitnessForm.value,{</span>
-          headers:new HttpHeaders({
-            'Content-Type':'application/json'
-          })
-        }).subscribe(<span class="fstat-no" title="function not covered" >()=</span>&gt;<span class="cstat-no" title="statement not covered" >this.msg='Row added successfully...')</span>; 
-      }
-        
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  onSubmit(</span>) {
+  }
+    
 }
 &nbsp;</pre></td></tr></table></pre>
 
@@ -276,9 +201,10 @@ constructor(private http:HttpClient){}
             </div><!-- /wrapper -->
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
-                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-12-18T04:22:47.908Z
+                <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
+                at Tue Jan 03 2023 15:42:26 GMT+0530 (India Standard Time)
             </div>
+        </div>
         <script src="../../prettify.js"></script>
         <script>
             window.onload = function () {
