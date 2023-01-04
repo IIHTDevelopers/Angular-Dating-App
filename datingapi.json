@@ -1,0 +1,314 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userid": 1001,
+      "name": "anil",
+      "age": 20,
+      "email": "anil@gmail.com",
+      "phone": "9089786756",
+      "gender": "male",
+      "city": "hyderabad",
+      "country": "india",
+      "isdeleted": false
+    },
+    {
+      "id": 2,
+      "userid": 1002,
+      "name": "Bhanu",
+      "age": 30,
+      "email": "bhanu@gmail.com",
+      "phone": "9089786756",
+      "gender": "Female",
+      "city": "hyderabad",
+      "country": "india",
+      "isdeleted": false
+    },
+    {
+      "id": 3,
+      "userid": 1003,
+      "name": "charan",
+      "age": 33,
+      "email": "charan@gmail.com",
+      "phone": "9089789809",
+      "gender": "Female",
+      "city": "hyderabad",
+      "country": "india",
+      "isdeleted": false
+    },
+    {
+      "id": 4,
+      "userid": 1004,
+      "name": "David",
+      "age": 33,
+      "email": "david@gmail.com",
+      "phone": "9089443344",
+      "gender": "Female",
+      "city": "hyderabad",
+      "country": "india",
+      "isdeleted": false
+    },
+    {
+      "id": 5,
+      "userid": 1005,
+      "name": "elisa",
+      "age": 33,
+      "email": "elisa@gmail.com",
+      "phone": "908974455",
+      "gender": "Female",
+      "city": "hyderabad",
+      "country": "india",
+      "isdeleted": false
+    },
+    {
+      "id": 6,
+      "userid": 1006,
+      "name": "Fernandez",
+      "age": 33,
+      "email": "fernandex@gmail.com",
+      "phone": "9089334466",
+      "gender": "Female",
+      "city": "hyderabad",
+      "country": "india",
+      "isdeleted": false
+    },
+    {
+      "id": 7,
+      "userid": 1007,
+      "name": "george",
+      "age": 33,
+      "email": "george@gmail.com",
+      "phone": "9089556677",
+      "gender": "Female",
+      "city": "hyderabad",
+      "country": "india",
+      "isdeleted": false
+    },
+    {
+      "id": 8,
+      "userid": 1008,
+      "name": "harish",
+      "age": 33,
+      "email": "harish@gmail.com",
+      "phone": "9089887788",
+      "gender": "Female",
+      "city": "hyderabad",
+      "country": "india",
+      "isdeleted": false
+    },
+    {
+      "id": 9,
+      "userid": 1009,
+      "name": "imran",
+      "age": 33,
+      "email": "imran@gmail.com",
+      "phone": "9089995599",
+      "gender": "Female",
+      "city": "hyderabad",
+      "country": "india",
+      "isdeleted": false
+    },
+    {
+      "id": 10,
+      "userid": 1010,
+      "name": "Jagan",
+      "age": 33,
+      "email": "jagan@gmail.com",
+      "phone": "9089102010",
+      "gender": "Female",
+      "city": "hyderabad",
+      "country": "india",
+      "isdeleted": false
+    },
+    {
+      "id": 11,
+      "userid": 1011,
+      "name": "Kiran",
+      "age": 33,
+      "email": "kiran@gmail.com",
+      "phone": "9089119911",
+      "gender": "Female",
+      "city": "hyderabad",
+      "country": "india",
+      "isdeleted": false
+    },
+    {
+      "id": 1010,
+      "userid": 1012,
+      "name": "Lavanya",
+      "age": 22,
+      "email": "lavanya@gmail.com",
+      "phone": "9089101212",
+      "gender": "Female",
+      "city": "hyderabad",
+      "country": "india",
+      "isdeleted": false
+    },
+    {
+      "id": 1011,
+      "userid": 1011,
+      "name": "Kiran",
+      "age": 33,
+      "email": "kiran@gmail.com",
+      "phone": "9089119911",
+      "gender": "Female",
+      "city": "hyderabad",
+      "country": "india",
+      "isdeleted": false
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "likeid": 1001,
+      "userid": 1002,
+      "isdeleted": false
+    },
+    {
+      "id": 2,
+      "likeid": 1001,
+      "userid": 1003,
+      "isdeleted": false
+    },
+    {
+      "id": 3,
+      "likeid": 1002,
+      "userid": 1001,
+      "isdeleted": false
+    },
+    {
+      "id": 4,
+      "likeid": 1002,
+      "userid": 1003,
+      "isdeleted": false
+    }
+  ],
+  "dislikes": [
+    {
+      "id": 1,
+      "dislikeid": 1001,
+      "userid": 1001,
+      "isdeleted": false
+    }
+  ],
+  "interests": [
+    {
+      "id": 1,
+      "interestedin": "Chess",
+      "notinterestedin": "Cricket",
+      "hobbies": "Games",
+      "profileurl": "abc.com",
+      "about": "Self",
+      "userid": "1001",
+      "isdeleted": true
+    },
+    {
+      "id": 2,
+      "interestedin": "Playing Music instrument",
+      "notinterestedin": "Dance",
+      "hobbies": "Music",
+      "profileurl": "abc.com",
+      "about": "Self",
+      "userid": "1001",
+      "isdeleted": true
+    },
+    {
+      "id": 3,
+      "interestedin": "Reading",
+      "notinterestedin": "Writing",
+      "hobbies": "Studying",
+      "profileurl": "abc.com",
+      "about": "Self",
+      "userid": "1001",
+      "isdeleted": true
+    },
+    {
+      "id": 4,
+      "interestedin": "Writing",
+      "notinterestedin": "Reading",
+      "hobbies": "Studying",
+      "profileurl": "abc.com",
+      "about": "Self",
+      "userid": "1001",
+      "isdeleted": true
+    },
+    {
+      "id": 5,
+      "interestedin": "Sketching",
+      "notinterestedin": "Writing",
+      "hobbies": "Drawing",
+      "profileurl": "abc.com",
+      "about": "Self",
+      "userid": "1001",
+      "isdeleted": true
+    },
+    {
+      "id": 6,
+      "interestedin": "Photography",
+      "notinterestedin": "Drawing",
+      "hobbies": "Nature",
+      "profileurl": "abc.com",
+      "about": "Self",
+      "userid": "1001",
+      "isdeleted": true
+    },
+    {
+      "id": 7,
+      "interestedin": "Drawing",
+      "notinterestedin": "Reading",
+      "hobbies": "Studying",
+      "profileurl": "abc.com",
+      "about": "Self",
+      "userid": "1001",
+      "isdeleted": true
+    },
+    {
+      "id": 8,
+      "interestedin": "Movies",
+      "notinterestedin": "Serials",
+      "hobbies": "Movies",
+      "profileurl": "abc.com",
+      "about": "Self",
+      "userid": "1001",
+      "isdeleted": true
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "matchid": 1001,
+      "userid": 1005,
+      "isdeleted": false
+    },
+    {
+      "id": 2,
+      "matchid": 1002,
+      "userid": 1004,
+      "isdeleted": false
+    },
+    {
+      "id": 3,
+      "matchid": 1003,
+      "userid": 1005,
+      "isdeleted": false
+    },
+    {
+      "id": 4,
+      "matchid": 1004,
+      "userid": 1005,
+      "isdeleted": false
+    },
+    {
+      "id": 5,
+      "matchid": 1003,
+      "userid": 1005,
+      "isdeleted": false
+    },
+    {
+      "id": 6,
+      "matchid": 1003,
+      "userid": 1005,
+      "isdeleted": false
+    }
+  ]
+}
