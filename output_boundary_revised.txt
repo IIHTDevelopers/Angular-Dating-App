@@ -1,3 +1,0 @@
-appcomponentBoundaryShouldCreateTheApp=true
-usercomponentBoundaryShouldCreate=true
-userserviceBoundaryShouldCreate=true
